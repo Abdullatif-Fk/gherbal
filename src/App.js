@@ -1,17 +1,15 @@
-import { useTranslation } from 'react-i18next';
 import './App.css';
-import Layout from './components/Layout';
-
+import { useTranslation } from 'react-i18next';
+import { Routes, Route } from 'react-router-dom';
+import MainPage from './pages/MainPage/MainPage';
 function App() {
-  const { t } = useTranslation();
+  const { i18n } = useTranslation();
+  document.body.dir = i18n.dir();
   return (
-    <Layout>
-      <div className="App">
-        {' '}
-        <img width="50px" src="./curve-arrow.png" />
-        {t('welcome_to_react')}
-      </div>
-    </Layout>
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="/ar" element={<MainPage />} />
+    </Routes>
   );
 }
 

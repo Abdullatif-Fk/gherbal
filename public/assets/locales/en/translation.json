@@ -1,3 +1,13 @@
 {
-  "welcome_to_react": "Welcome to React and react-i18next"
+  "Definition": {
+    "title": "Criminal Court of Appeal:",
+    "list": {
+      "0": "Within every governorate, there is one or more courts of appeal.",
+      "1": "The Court of Appeal consists of 3 judges: a president and two consultants.",
+      "2": "The public prosecution is represented before the Court of Appeal by the Appellate Public Prosecutor or an Attorney General."
+    },
+    "explication": {
+      "title": "Their jurisdiction:"
+    }
+  }
 }

@@ -1,0 +1,24 @@
+.def__container {
+  background-color: #eae8d9;
+  margin-top: 10px;
+  border-top-left-radius: 30px;
+  border-radius: 30px;
+  padding: 3px;
+}
+.def__title__container {
+  background-color: white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #d2743b;
+  padding: 15px;
+}
+.def__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
