@@ -1,0 +1,8 @@
+.idea__container {
+  display: flex;
+  align-items: center;
+}
+.idea__img {
+  width: 50px;
+  height: 50px;
+}

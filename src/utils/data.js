@@ -6,5 +6,6 @@ const definition = {
     'The public prosecution is represented before the Court of Appeal by the Appellate Public Prosecutor or an Attorney General.',
   ],
 };
+const ideas = [0, 1, 2, 3];
 
-export { definition };
+export { definition, ideas };

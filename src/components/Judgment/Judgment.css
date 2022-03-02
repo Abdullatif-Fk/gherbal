@@ -1,0 +1,16 @@
+.judgment {
+  margin-top: 30px;
+}
+.judgment__desc {
+  background-color: #eae8d9;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+.judgment__list {
+  margin-top: 20px !important;
+  border-left: 2px solid #d2743b;
+  border-bottom: 2px solid #d2743b;
+}
