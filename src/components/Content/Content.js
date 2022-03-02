@@ -1,5 +1,4 @@
-import { Grid, List, ListItem, Typography } from '@material-ui/core';
-import { Image } from '@mui/icons-material';
+import { Grid, List, ListItem } from '@material-ui/core';
 import React from 'react';
 import { ideas } from '../../utils/data';
 import Title from '../Title/Title';
@@ -50,8 +49,6 @@ function Content() {
           <PieChart width={300} height={300}>
             <Pie
               data={data}
-              // cx={100}
-              // cy={200}
               innerRadius={130}
               outerRadius={150}
               startAngle={lng === 'en' ? -90 : 90}
@@ -64,7 +61,6 @@ function Content() {
               <Label width={200} position="center">
                 {t('chart1')}
               </Label>
-              {/* <Label content={<h4>My label here</h4>} position="center" /> */}
             </Pie>
           </PieChart>
         </Grid>
@@ -72,8 +68,6 @@ function Content() {
           <PieChart width={300} height={300}>
             <Pie
               data={data}
-              // cx={100}
-              // cy={200}
               innerRadius={130}
               outerRadius={150}
               startAngle={lng === 'en' ? -90 : 90}
@@ -86,7 +80,6 @@ function Content() {
               <Label width={200} position="center">
                 {t('chart2')}
               </Label>
-              {/* <Label content={<h4>My label here</h4>} position="center" /> */}
             </Pie>
           </PieChart>
         </Grid>
@@ -95,8 +88,6 @@ function Content() {
           <PieChart width={300} height={300}>
             <Pie
               data={data}
-              // cx={100}
-              // cy={200}
               innerRadius={130}
               outerRadius={150}
               startAngle={lng === 'en' ? -90 : 90}
@@ -113,7 +104,6 @@ function Content() {
               >
                 {t('chart3')}
               </Label>
-              {/* <Label content={<h4>My label here</h4>} position="center" /> */}
             </Pie>
           </PieChart>
         </Grid>
@@ -121,8 +111,6 @@ function Content() {
           <PieChart width={300} height={300}>
             <Pie
               data={data}
-              // cx={100}
-              // cy={200}
               innerRadius={130}
               outerRadius={150}
               startAngle={lng === 'en' ? -90 : 90}

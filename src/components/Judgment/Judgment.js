@@ -1,4 +1,4 @@
-import { Box, Grid, List, ListItem, Typography } from '@material-ui/core';
+import { Box, Grid, List, ListItem } from '@material-ui/core';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './Judgment.css';

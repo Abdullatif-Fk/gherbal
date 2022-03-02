@@ -14,12 +14,6 @@ import { Link } from 'react-router-dom';
 
 export default function Layout({ children }) {
   const languages = [
-    // {
-    //   code: 'fr',
-    //   name: 'Français',
-    //   country_code: 'fr',
-    //   path: '/fr',
-    // },
     {
       code: 'en',
       name: 'English',
@@ -38,12 +32,9 @@ export default function Layout({ children }) {
   const open = Boolean(anchorEl);
   const handleClick = (e) => {
     setAnchorEl(e.currentTarget);
-
-    // handleClose();
   };
   const handleClose = (e, lng) => {
     setAnchorEl(null);
-    // console.log(lng);
     i18next.changeLanguage(lng);
   };
   return (
@@ -81,12 +72,6 @@ export default function Layout({ children }) {
         </AppBar>
       </Box>
       <Container>{children}</Container>
-
-      {/* <footer>
-        <Typography>
-          All <strong>@Abed</strong> rights reserved. Next Shop 2022.
-        </Typography>
-      </footer> */}
     </div>
   );
 }
