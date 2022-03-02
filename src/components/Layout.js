@@ -14,12 +14,12 @@ import { Link } from 'react-router-dom';
 
 export default function Layout({ children }) {
   const languages = [
-    {
-      code: 'fr',
-      name: 'Français',
-      country_code: 'fr',
-      path: '/fr',
-    },
+    // {
+    //   code: 'fr',
+    //   name: 'Français',
+    //   country_code: 'fr',
+    //   path: '/fr',
+    // },
     {
       code: 'en',
       name: 'English',
@@ -58,7 +58,7 @@ export default function Layout({ children }) {
               aria-expanded={open ? 'true' : undefined}
               onClick={handleClick}
             >
-              <LanguageIcon />
+              <LanguageIcon style={{ color: 'white' }} />
             </Button>
             <Menu
               id="basic-menu"
@@ -77,7 +77,6 @@ export default function Layout({ children }) {
                 </Link>
               ))}
             </Menu>
-            {/* <Button color="inherit">Login</Button> */}
           </Toolbar>
         </AppBar>
       </Box>

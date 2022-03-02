@@ -135,7 +135,6 @@ function Content() {
               <Label width={200} position="center">
                 {t('chart4')}
               </Label>
-              {/* <Label content={<h4>My label here</h4>} position="center" /> */}
             </Pie>
           </PieChart>
         </Grid>
@@ -164,6 +163,7 @@ function Content() {
           </p>
         </div>
       </Grid>
+      <hr style={{ border: '2px #D2743B solid', width: '90%' }} />
       <Grid item xs={12}>
         <Title filled={false} title="delay_of_appeal"></Title>
       </Grid>
@@ -205,7 +205,7 @@ function Content() {
           <Judgment desc="decision.1.desc" items={['decision.1.item']} />
         </Grid>
       </Grid>
-      <Typography style={{ marginTop: '20px' }}> {t('remarque')} </Typography>
+      <p style={{ marginTop: '20px' }}> {t('remarque')} </p>
       <Grid item md={12}>
         <Title filled={true} title="title2"></Title>
       </Grid>
@@ -215,6 +215,7 @@ function Content() {
           <ListItem>{t('dec2')}</ListItem>
         </List>
       </Grid>
+      <hr style={{ border: '2px #D2743B solid', width: '90%' }} />
     </Grid>
   );
 }

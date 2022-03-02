@@ -20,7 +20,7 @@ function Title({ title, filled }) {
           }
           item
         >
-          <Typography className="title">{t(title)}</Typography>
+          <h2 className="title">{t(title)}</h2>
         </Grid>
       </Grid>
     </Container>

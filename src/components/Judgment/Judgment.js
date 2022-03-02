@@ -7,13 +7,13 @@ function Judgment({ desc, items }) {
   return (
     <Box className="judgment">
       <Grid className="judgment__desc" item>
-        <Typography>{t(desc)}</Typography>
+        <p>{t(desc)}</p>
       </Grid>
       <Grid className="judgment__list" item>
         <List>
           {items?.map((item, key) => (
             <ListItem key={key}>
-              <Typography>{t(item)} </Typography>
+              <p>{t(item)}</p>{' '}
             </ListItem>
           ))}
         </List>
