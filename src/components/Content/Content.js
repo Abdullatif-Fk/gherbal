@@ -7,13 +7,12 @@ import '../../components/Idea/Idea.css';
 import Idea from '../Idea/Idea';
 import Judgment from '../Judgment/Judgment';
 import './Content.css';
-import { Label, Pie, PieChart, Text } from 'recharts';
+import { Label, Pie, PieChart } from 'recharts';
 import i18next from 'i18next';
 function Content() {
   const { t } = useTranslation();
   const data = [{ name: 'Group A', value: 400 }];
   const lng = i18next.language;
-  console.log(lng);
   return (
     <Grid container>
       <Grid item md={12}>

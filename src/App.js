@@ -1,4 +1,3 @@
-import './App.css';
 import { useTranslation } from 'react-i18next';
 import { Routes, Route } from 'react-router-dom';
 import MainPage from './pages/MainPage/MainPage';
